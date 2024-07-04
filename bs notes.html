@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- <h1>Hello, world!</h1>  -->
+    
+
+    <!-- FOR NAVBAR  -->
+    <nav class="navbar navbar-expand-lg bg-primary-subtle" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MYCODE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Content
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Data Structure & Algorithm</a></li>
+                  <li><a class="dropdown-item" href="#">Web Develoopment</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Javascript</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact US</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div class="alert alert-danger" role="alert">
+        A simple primary alert—check it out!
+      </div>
+      <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>SUCCESS !</strong> Your form has been filled.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+     
+      <!-- FOR breadcrumb -->
+      
+      <nav class="navbar navbar-expand-lg bg-dark-subtle" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Learn</a></li>
+          <li class="breadcrumb-item"><a href="#">Tutorials</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Certificate</li>
+        </ol>
+      </nav>
+
+
+      <!-- FOR BUTTONS -->
+
+<button type="button" class="btn btn-primary ">Primary</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+
+<button type="button" class="btn btn-primary btn-sm">Primary</button>
+<button type="button" class="btn btn-dark btn-sm">Dark</button>
+
+<div class="d-grid gap-2">
+  <button class="btn btn-primary bg-dark-subtle" type="button">Button</button>
+  <button class="btn btn-primary" type="button">Button</button>
+</div>
+
+
+<!-- FOR card  -->
+<div class="card" style="width: 18rem;">
+  <img src="https://imgs.search.brave.com/THaqkd-8v372WaiHQeGGWjaSnylNA4ablJUfCcsP1cU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZWVrc2Zvcmdl/ZWtzLm9yZy93cC1j/b250ZW50L2Nkbi11/cGxvYWRzLzIwMjMw/MzEwMTMyNjA1L0Jv/b3RzdHJhcC1UdXRv/cmlhbC5qcGc" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bootstrap Tutorial</h5>
+    <p class="card-text">go through to learn</p>
+    <a href="https://youtu.be/vpAJ0s5S2t0?si=obkfUgNJ3JGFk0_I" class="btn btn-primary">CLICK TO LEARN</a>
+  </div>
+</div>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://imgs.search.brave.com/VKwzVi4djD5kBMl-UXdHbPXAFnLaVXfYPMpbzscUwcM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdC5k/ZXBvc2l0cGhvdG9z/LmNvbS8xMDAwNDIz/LzE2MzcvaS82MDAv/ZGVwb3NpdHBob3Rv/c18xNjM3Mjk4Ny1z/dG9jay1waG90by1i/dXNpbmVzcy1lLWNv/bW1lcmNlLmpwZw" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item active">
+      <img src="https://imgs.search.brave.com/B3YhsoJ7CK0l3SA4eL6KFr1uwBbQWGMdcQx1lo5xqbc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTIz/MDc5ODQ4L3Bob3Rv/L29ubGluZS1zaG9w/cGluZy5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9NzRjVzRM/RGxjV1JLbE1NczQ5/UktnMl8tOWxzQ2V0/UG5pNGZoS2pXN1Jo/UT0" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgs.search.brave.com/ZTjqANcZMtGWN6fb0hsE_L87oJ_czL5GjrGoH2beJAE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzA0Lzc2LzMz/LzM2MF9GXzYwNDc2/MzM4N19pSHNoUzJw/SEJWM0pBMEw5MDlu/Rm5TSUVhenMyR1Vm/Vi5qcGc" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://imgs.search.brave.com/VKwzVi4djD5kBMl-UXdHbPXAFnLaVXfYPMpbzscUwcM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdC5k/ZXBvc2l0cGhvdG9z/LmNvbS8xMDAwNDIz/LzE2MzcvaS82MDAv/ZGVwb3NpdHBob3Rv/c18xNjM3Mjk4Ny1z/dG9jay1waG90by1i/dXNpbmVzcy1lLWNv/bW1lcmNlLmpwZw" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgs.search.brave.com/ZTjqANcZMtGWN6fb0hsE_L87oJ_czL5GjrGoH2beJAE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzA0Lzc2LzMz/LzM2MF9GXzYwNDc2/MzM4N19pSHNoUzJw/SEJWM0pBMEw5MDlu/Rm5TSUVhenMyR1Vm/Vi5qcGc" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://imgs.search.brave.com/CzvVbFjckRqwpjPqI_Ixfl13JkuQ5haF7MqE9EcjXCI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzE0LzUzLzkz/LzM2MF9GXzIxNDUz/OTM4Ml9hQWJja0U2/dXl3RzB3MEI2MW96/Sm44MkR5MFdkNzNG/WS5qcGc" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<!-- <button type="button" class="btn btn-link">Link</button> -->
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
